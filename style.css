@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color:antiquewhite;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.pealkiri {
+    color:firebrick;
+    font-size: 50px;
+    font-family: Verdana;
+}
+
+.vaikePealkiri {
+    color:firebrick;
+    font-size: 30px;
+    font-family: Verdana;
+}
+
+.tekst {
+    color:darkslategray;
+    font-size: 24px;
+    font-family: Tahoma;
+    text-align: left;
+}
+
+.link {
+    color:cadetblue;
+    font-size: 24px;
+    font-family: Tahoma;
+}
+
+.pildiraam {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.tabel {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.päis {
+    color: darkblue;
+    font-size: 24px;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+.tabeliTekst {
+    color:darkslategray;
+    font-size: 24px;
+    font-family: Tahoma;
+    text-align: center;
+}
